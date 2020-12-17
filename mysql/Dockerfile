@@ -6,4 +6,4 @@ MAINTAINER Alderano Fileni <afileni@hotmail.com>
 #    MYSQL_DATABASE=fiapdb \
 #    MYSQL_ROOT_PASSWORD=senhaFiap
 
-ADD ./aso.sql /docker-entrypoint-initdb.d
+ADD ./script.sql /docker-entrypoint-initdb.d
